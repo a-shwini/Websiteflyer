@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Urbanist", sans-serif;
+}
+h4{
+    color: red;
+}
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+p{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.55rem;
+    letter-spacing: 0.07rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/*hero section */
+.hero-section .container{
+    display:grid;
+    place-content: center;
+    height:inherit;
+}
+.bgg-main{
+    height: 80vh;
+    position: relative;
+}
+.hero-img{
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+
+}
+.form-check-input:checked {
+    background-color:  #E0115F;
+    border-color:  #E0115F;
+}
+
+
+.btn{
+    background-color: #E0115F;
+    color: white;
+    border-radius: 0;
+    border: none;
+}
+.we-text{
+    font-size: 2rem;
+}
+.para{
+    margin-left:540px;
+    margin-top: -60px;
+}
+.img_box img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.slider_container .container{
+    padding: 0 15px;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.card_slider{
+    padding: 50px 0;
+}
+.swiper-pagination-bullet {
+    background-color: black;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: black;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(224, 17, 95, 0.9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.img-box:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.overlay p {
+    margin-bottom: 20px;
+    font-size: 10px;
+    letter-spacing: 0.03rem;
+    padding:5px 5px;
+}
+
+.overlay a.btn {
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+}
+.overlay .fa-laptop-code{
+    font-size: 47px;
+}
+
+.overlay a.btn:hover {
+    background-color: #5a6268;
+}
+/*our-project-section*/
+.our-project-section {
+    padding: 80px 0;
+}
+#project-img {
+    width: 850px;
+    height: 510px;
+    object-fit: cover;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #ECECEC;
+}
+
+.content-item {
+    padding: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.content-item h5{
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+.content-item p{
+    margin-bottom: 20px;
+    font-size: 10px;
+    letter-spacing: 0.03rem;
+    padding:5px 5px;
+}
+
+.content-item:hover {
+    background-color: rgba(224, 17, 95, 0.9);
+    color: #fff;
+}
+
+.content-item p {
+    margin-bottom: 0;
+}
+/*Expert growth*/
+.our-company-growth-section{
+ padding: 80px 0;
+}
+.our-company-growth-section {
+ padding: 80px 0;
+}
+
+.our-company-growth-section .card {
+ border: none;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ transition: transform 0.3s ease;
+}
+
+.our-company-growth-section .card:hover {
+ transform: translateY(-5px);
+}
+
+.our-company-growth-section .card .card-body {
+ padding: 2rem;
+ text-align: center;
+}
+
+.our-company-growth-section .card .card-body i {
+ font-size: 3rem;
+ margin-bottom: 1rem;
+}
+
+.our-company-growth-section .card .card-body h2 {
+ font-size: 2.5rem;
+ margin-bottom: 0.5rem;
+}
+
+.our-company-growth-section .card .card-body p {
+ font-size: 1.2rem;
+ color: #666;
+}
